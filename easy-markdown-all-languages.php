@@ -1,10 +1,10 @@
 <?php
 /*
 Plugin Name: Easy Markdown All Languages
-Plugin URI: http://davidwells.io/
+Plugin URI: https://github.com/chznbaum/easy-markdown-all-languages
 Description: Write in Markdown, publish in WordPress. Supports all languages supported by Prism.
 Version: 0.1
-Author: Chazona Baum
+Author: @chznbaum
 Author URI: http://chazonabaum.com/
 
 Easy Markdown All Languages. Inspired by David's plugin, but modified.
