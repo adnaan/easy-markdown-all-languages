@@ -16,9 +16,9 @@ I needed more languages supported. Since Prism's so lightweight and I'm often ad
 
 This modified plugin uses the [Coy Prism Theme](http://prismjs.com/index.html?theme=prism-coy), and supports [line numbers](http://prismjs.com/plugins/line-numbers/) and [command line code blocks](http://prismjs.com/plugins/command-line/). It also supports syntax highlighting inline code snippets in addition to the code blocks supported by the original plugin.
 
-If you want a different theme, make a custom Prism build and replace the `prism.css` [file](https://github.com/chznbaum/easy-markdown/blob/master/css/prism.css).
+If you want a different theme, make a custom Prism build and replace the `prism.css` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/css/prism.css).
 
-If you want a different selection of features, make a custom Prism build and replace the `prism.js` [file](https://github.com/chznbaum/easy-markdown/blob/master/js/prism.js).
+If you want a different selection of features, make a custom Prism build and replace the `prism.js` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/js/prism.js).
 
 ## Languages Supported:
 
@@ -144,11 +144,11 @@ If you want a different selection of features, make a custom Prism build and rep
 - Xojo (REALbasic)
 - YAML
 
-If you want a different selection of languages (maybe to slim the plugin down), make a custom Prism build and replace the `prism.js` [file](https://github.com/chznbaum/easy-markdown/blob/master/js/prism.js).
+If you want a different selection of languages (maybe to slim the plugin down), make a custom Prism build and replace the `prism.js` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/js/prism.js).
 
 ## Installation
 
-1. [Download](https://github.com/chznbaum/easy-markdown)
+1. [Download](https://github.com/chznbaum/easy-markdown-all-languages)
 2. [Install](http://www.wpbeginner.com/beginners-guide/step-by-step-guide-to-install-a-wordpress-plugin-for-beginners/)
 3. Visit profile and check 'Disable the visual editor when writing' in the profile page of WP admin `/wp-admin/profile.php`
 4. Have multiple users and want to disable the visual editor for everyone? Include this in your `functions.php` or in a site-specific plugin:
@@ -202,11 +202,11 @@ I'm not supporting custom use cases and styles.
 
 You can fork the plugin and do this yourself!
 
-To change CSS, edit the `prism.css` [file](https://github.com/chznbaum/easy-markdown/blob/master/css/prism.css)
+To change CSS, edit the `prism.css` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/css/prism.css)
 
-To change/customize prism edit the `prism.js` [file](https://github.com/chznbaum/easy-markdown/blob/master/js/prism.js).
+To change/customize prism edit the `prism.js` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/js/prism.js).
 
-To [add support for more custom post types alter these lines](https://github.com/chznbaum/easy-markdown/blob/master/includes/wpcom-markdown.php#L356-L360).
+To [add support for more custom post types alter these lines](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/includes/wpcom-markdown.php#L356-L360).
 
 ### Happy Blogging!
 
