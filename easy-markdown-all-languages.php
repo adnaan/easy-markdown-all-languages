@@ -1,13 +1,18 @@
 <?php
 /*
-Plugin Name: Easy Markdown
+Plugin Name: Easy Markdown All Languages
 Plugin URI: http://davidwells.io/
-Description: Write in Markdown, publish in WordPress
+Description: Write in Markdown, publish in WordPress. Supports all languages supported by Prism.
 Version: 0.1
-Author: David Wells
-Author URI: http://davidwells.io
-*/
+Author: Chazona Baum
+Author URI: http://chazonabaum.com/
 
+Easy Markdown All Languages. Inspired by David's plugin, but modified.
+
+@author David Wells
+@author Chazona Baum <chazona@chazonabaum.com>
+@link https://github.com/DavidWells/easy-markdown
+*/
 define('EASY_MARKDOWN_URLPATH', plugins_url('/', __FILE__));
 define('EASY_MARKDOWN_PATH',WP_PLUGIN_DIR.'/'.dirname(plugin_basename(__FILE__)).'/');
 
@@ -22,7 +27,7 @@ add_filter('the_content', 'easy_markdown_prism_code_pre_tag');
  */
 function easy_markdown_prism_code_pre_tag($content) {
   /* TODO: Make this check more robust */
-  $content = preg_replace('/\<code class="(.*?)"\>/s', '<code class="language-$1">', $content);
+  $content = preg_replace(array('/\<code\>/s', '/\<code class="(.*?)"\>/s'), '<code class="language-$1">', $content);
   // These enable line numbers in prism
   /*$content = preg_replace('/\<pre(.*?)\><code class="(.*?)"\>/s', '<pre class="line-numbers"><code class="language-$2">', $content);
   //$content = preg_replace('/\<\/pre(.*?)\>/s', '</code></pre>', $content);*/
