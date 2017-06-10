@@ -2,8 +2,8 @@
 /*
 Plugin Name: Easy Markdown All Languages
 Plugin URI: https://github.com/chznbaum/easy-markdown-all-languages
-Description: Write in Markdown, publish in WordPress. Supports all languages supported by Prism.
-Version: 0.1
+Description: Write in Markdown, publish in WordPress. Supports all languages supported by Prism and styles comment code.
+Version: 0.3.0
 Author: @chznbaum
 Author URI: http://chazonabaum.com/
 
@@ -22,6 +22,7 @@ include_once( EASY_MARKDOWN_PATH . 'includes/github-flavored-markdown.php');
 include_once( EASY_MARKDOWN_PATH . 'includes/wpcom-markdown.php');
 
 add_filter('the_content', 'easy_markdown_prism_code_pre_tag');
+add_filter('comment_text', 'easy_markdown_prism_code_pre_tag');
 /**
  * Wraps all pre tags with the language specified
  */

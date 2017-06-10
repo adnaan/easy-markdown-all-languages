@@ -14,7 +14,7 @@ He made it with a focus on JavaScript, and it supports ES6 javascript syntax hig
 
 I needed more languages supported. Since Prism's so lightweight and I'm often adding new languages to my arsenal, I tweaked this to support all the languages currently supported by Prism.
 
-This modified plugin uses the [Coy Prism Theme](http://prismjs.com/index.html?theme=prism-coy), and supports [line numbers](http://prismjs.com/plugins/line-numbers/) and [command line code blocks](http://prismjs.com/plugins/command-line/). It also supports syntax highlighting inline code snippets in addition to the code blocks supported by the original plugin.
+This modified plugin uses the [Coy Prism Theme](http://prismjs.com/index.html?theme=prism-coy), and supports [line numbers](http://prismjs.com/plugins/line-numbers/) and [command line code blocks](http://prismjs.com/plugins/command-line/). It also supports syntax highlighting inline code snippets in addition to the code blocks supported by the original plugin. *It also now supports syntax highlighting code in comments.* :satisfied:
 
 If you want a different theme, make a custom Prism build and replace the `prism.css` [file](https://github.com/chznbaum/easy-markdown-all-languages/blob/master/css/prism.css).
 
@@ -223,3 +223,16 @@ The Markdown parser was shamelessly gutted from [JetPack](https://wordpress.org/
 This plugin was modified from [David Wells](https://github.com/DavidWells/easy-markdown)
 
 Thanks! :smile:
+
+## Version History
+
+### Version 0.3.0 (Current)
+9 June 2017
+* Added support for comments
+
+### Version 0.2.0
+* Added all Prism supported languages
+* Added support for inline code
+
+### Version 0.1.0
+Forked from original
